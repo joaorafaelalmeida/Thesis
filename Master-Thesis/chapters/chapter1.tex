@@ -11,86 +11,25 @@ Incorporating security into the software development lifecycle is no longer opti
 
 
 
+
 \section{Motivation}
-How can a vulnerability management system be effectively integrated into CI/CD pipelines to detect, monitor, and report security vulnerabilities in Web Applications without disrupting development workflows?
-\paragraph{}
 
 In recent years, the implementation of DevOps practices has become essential to accelerate software development and IT operations, providing an improvement in efficiency and collaboration between teams. Moreover, the growing complexity of cyberattacks has highlighted the importance of integrating security from the earliest stages of the development cycle, culminating in the concept of DevSecOps. This concept advocates the inclusion of security practices throughout the CI/CD pipelines, aiming to identifying and mitigating vulnerabilities promptly. Nonetheless, many organizations still face challenges in effectively incorporating automated security tools without disrupting the development flow.
-The efficiency of these vulnerability management systems became evidently more important as the development of web applications continues to grow. Security vulnerabilities may compromise the integrity of data and operations at risk as well as compromise user trust. SAST and DAST tools have the potential to automate the detection of security flaws. However, only one of these tools tends to be used, or, when combined, it isn’t effectively integrated into CI/CD pipelines. The fragmentation between these tools and the development flow can result in undetected security vulnerabilities, exposing applications to risks.
-Additionally, the increasing volume of discovered vulnerabilities requires a centralized and automated reporting system. This process shall provide actionable feedback to developers without delaying the development process. The creation of clear dashboards and reports is crucial to ensure that vulnerabilities are identified and resolved quickly. Such need is particularly critical in sensitive sectors, such as healthcare, where data protection and regulatory compliance are essential. One example of such is the implementation of a vulnerability management system in the EHDEN portal, which facilitates access to health databases, a key element to ensuring patient privacy and data integrity. 
+
+The efficiency of these vulnerability management systems became evidently more important as the development of web applications continues to grow. Security vulnerabilities may compromise the integrity of data and operations at risk as well as compromise user trust. SAST and DAST tools have the potential to automate the detection of security flaws. However, only one of these tools tends to be used, or, when combined, it is not effectively integrated into CI/CD pipelines. The fragmentation between these tools and the development flow can result in undetected security vulnerabilities, exposing applications to risks.
+
+Additionally, the increasing volume of discovered vulnerabilities requires a centralized and automated reporting system. This process shall provide actionable feedback to developers without delaying the development process. The creation of clear dashboards and reports is crucial to ensure that vulnerabilities are identified and resolved quickly. Such need is particularly critical in sensitive sectors, such as healthcare, where data protection and regulatory compliance are essential. One example of such is the implementation of a vulnerability management system in the EHDEN portal, which facilitates access to health databases, a key element to ensuring patient privacy and data integrity.
+
 Hence the investigation of an efficient way to integrate and automate vulnerability management within CI/CD pipelines is so significant, leading to the improvement of the security of Web Applications. The development of a framework that combines the best security practices with tools for detecting both static and dynamic vulnerabilities is not only an important step toward ensuring continuous security but also aligns development processes with emerging security standards in the DevSecOps world.
-\section{Acrónimos}
 
-Primeira e seguintes referências: \ac{h2o}, \ac{h2o}
+\section{Goal}
+%Write something here preenting the researche question
 
-Plural, acrónimo expandido e curto: \acp{h2o}, \acl{h2o}, \acs{h2o}
-
-Com citação\footnote{Necessária entrada na bibliografia}: \ac{adsl}, \ac{adsl}
+How can a vulnerability management system be effectively integrated into CI/CD pipelines to detect, monitor, and report security vulnerabilities in Web Applications without disrupting development workflows?
 
 
-\section{Fontes}
 
-\begin{itemize}
-\item{\tiny Tiny}
-\item{\scriptsize Scriptsize}
-\item{\footnotesize Footnotes}
-\item{\small Small}
-\item{\normalsize Normal}
-\item{\large large}
-\item{\Large Large}
-\item{\LARGE LARGE}
-\item{\huge huge}
-\item{\Huge Huge}
-\end{itemize}
-
-\section{Unidades}
-
-Utilizando o pacote \verb|siunitx| é possível utilizar unidades do Sistema Internacional. Exemplo: a aceleração da gravidade é de \SI{9.8}{\metre\per\second\squared} e um ficheiro ocupa \SI{1}{\mebi\byte}. 
-
-\section{Code Blocks}
-%\lipsum[5]
-Uma listagem pode ser apresentada com o ambiente \texttt{listing}, que é um float (objeto flutuante, tal como uma figura ou uma tabela).
-
-A listagem em Código~\ref{lbl:snippet-test} mostra um exemplo em C.
-
-\begin{listing}[h]
-\begin{minted}{c}
-
-#include <stdio.h>
-#define N 10
-/* Block
- * comment */
- 
-int main()
-{
-    int i;
- 
-    // Line comment.
-    puts("Hello world!");
- 
-    for (i = 0; i < N; i++)
-    {
-        puts("LaTeX is also great for programmers!");
-    }
- 
-    return 0;
-}
-\end{minted}
-\caption{This caption appears below the code.}
-\label{lbl:snippet-test}
-\end{listing}
-
-%\lipsum[5]
-
-\section{Citações}
-
-Algumas formas distintas de citar:
-
-\begin{itemize}
-    \item \textbf{Apenas referência}:~\cite{rfc44}
-    \item \textbf{Apenas data}:~\citedate{rfc44}
-    \item \textbf{Apenas ano}:~\citeyear{rfc44}
-    \item \textbf{Apenas autor}:~\citeauthor{rfc44}
-    \item \textbf{Apenas editor}:\citelist{rfc44}{organization}
-    \item \textbf{Autor e referência}:\citet{rfc44}
-\end{itemize}
+%My proposals (but i do not like them, just to think a bit better):
+%How can a vulnerability system detect and report security issues in CI/CD pipelines?
+%How can CI/CD pipelines monitor and report web app vulnerabilities using automated tools?
+%How can CI/CD benefit from automatised vulnerability detecting systems?
